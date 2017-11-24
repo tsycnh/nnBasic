@@ -104,3 +104,4 @@ for step in range(0,5000):
         funcs.plot_data(input_x,input_y)
         funcs.plot_line(a_model.w,a_model.b)
         plt.pause(0.01)
+        plt.close()
