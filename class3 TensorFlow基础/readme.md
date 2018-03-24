@@ -32,3 +32,5 @@ tf.Variable 变量
 Session
 
 sess.run
+
+课程视频：  https://pan.baidu.com/s/1LzLQx_hpJ5U1JztfWdWsnA 密码: 4ccc
