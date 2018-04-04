@@ -135,7 +135,7 @@ bp = BpModel(input_x,input_y)
 def calc_cross_entropy_loss(y,y_p):
     log = np.log(y_p+0.000001)
     tmp = y*log
-    s = tmp[0,:]+tmp[1,:]
+    s = tmp[:,0]+tmp[:,1]
     ce = -np.sum(s)/len(s)
     return ce
 
